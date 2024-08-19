@@ -25,6 +25,23 @@ cd my-first-pr
 cp ~/Downloads/README.md .
 ```
 
+> **Important Note:**
+> If you get an error because the file is missing, then do the following:
+> 
+> ```shell
+> ls -l ~/Downloads/README*.md 
+> ```
+> 
+> This will show if you have more than one ReadMe > file. For example:
+> ```text
+> -rw-r--r-- 1 AD+5001775 536871425 5679 Aug 19 > 12:55 '/c/Users/5001775/Downloads/README(1)(1).md'
+> ```
+> In this situation we need to copy the file an > rename it in one go using:
+> ```shell
+> cp ~/Downloads/README(1)(1).md ReadMe.md
+> ```
+
+
 **IMPORTANT:** Please ensure you continue working on the file copy and not the original.
 
 ### Create an empty repository on GitHub
