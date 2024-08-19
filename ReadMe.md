@@ -32,7 +32,8 @@ cp ~/Downloads/README.md .
 > ls -l ~/Downloads/README*.md 
 > ```
 > 
-> This will show if you have more than one ReadMe > file. For example:
+> This will show if you have more than one ReadMe  file. For example:
+>
 > ```text
 > -rw-r--r-- 1 AD+5001775 536871425 5679 Aug 19 > 12:55 '/c/Users/5001775/Downloads/README(1)(1).md'
 > ```
@@ -43,6 +44,14 @@ cp ~/Downloads/README.md .
 
 
 **IMPORTANT:** Please ensure you continue working on the file copy and not the original.
+
+To do this, close this file and then at the command line type the following:
+```shell
+code .
+```
+
+or use the file explorer to locate and open the repository's copy of the ReadMe.md file.
+
 
 ### Create an empty repository on GitHub
 
@@ -76,6 +85,14 @@ git remote -v
    ```bash
    git push -u origin main
    ```
+
+> **Important** 
+> 
+> You will get an error if you have not added the updated `ReadMe.md` file and then committed it...
+> So if that is the case make sure you do a `git add ReadMe.md` and then commit it using `git commit -m "init: start of exercise"`. 
+>
+> Once you have done this, use the `git push -u origin main` again.
+
 
 5. Refresh the GitHub page for your repository. You should see this `README.md` file.
 
