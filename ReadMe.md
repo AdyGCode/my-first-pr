@@ -175,6 +175,26 @@ git push -u origin fix/pr-definition
 
 Notice that GitHub suggests that you delete the branch after merging. This is a good practice because it keeps your repository clean and easy to navigate. It is part of a Git workflow called `GitHub flow`.
 
+
+## Add the Picture
+
+Follow the concepts you pacticed above, using the steps below with a new branch `fix/add-image`.
+
+In this exercise you will:
+
+- create a new branch `fix/add-image` and switch to the new branch
+- copy the colag.png file to the repository folder using `cp colab.png ./`
+- add the image to version control using `git add` 
+- commit the change to the repository using `git commit -m "fix: Add image for ReadMe.md banner"`
+- push the changes the remote `fix/add-image` branch
+- create a pull request to merge the fix into the main branch
+- merge the pull request with a comment of `image accepted for ReadMe`
+- check the ReadMe now has the iamge visible
+- Once all done, delete the `fix/add-image` branch as it is no longer needed.
+
+
+
+
 ### Optional: Fork someone else's repository and create a pull request
 
 If you are doing this in class, you can fork the repository of the person sitting next to you. If you are doing this on your own, you can fork a friend's or colleague's repository.
